@@ -1,20 +1,12 @@
 <p><i>课程推荐</i></p>
-<ul>
+<ul class="course">
     <li *ngFor="let course of courseList" （click）="selectCourse(Course)">
-        {{{course.name}}
-        {{course.ID}}
-        {{course.institute}}
-        {{course.teacher_name}}
-        {{course.description}}
+        <label>课程名</label>{{course.name}}
+        <label>课程编号</label>{{course.id}}
+        <label>开设院系</label>{{course.institute}}
+        <label>任课教师</label>{{course.teacher_name}}
+        <label>课程简介</label>{{course.description}}
        </li>
     </li>
 </ul>
 
-<style>
-
-    .li{
-        border: dotted;
-
-    }
-
-</style>

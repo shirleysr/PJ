@@ -3,7 +3,6 @@ import 'dart:convert';
 
 import 'package:angular2/core.dart';
 import 'package:http/http.dart';
-
 import 'course.dart';
 
 @Injectable()
