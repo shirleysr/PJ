@@ -5,7 +5,7 @@ import 'dart:html';
 import 'package:angular2/platform/browser.dart';
 
 import 'package:untitled7/views/app_component/app_component.dart';
-import'package:untitled7/views/course_details_component/course_details_component.dart';
+
 main() {
   bootstrap(AppComponent);
 }
