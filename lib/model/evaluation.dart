@@ -1,5 +1,6 @@
 class Evaluation{
-  string user;//用户
-  const remarks;//具体评价
+  String user;//用户
+  String remarks;//具体评价
+  Evaluation(this.user,this.remarks);
 
 }
