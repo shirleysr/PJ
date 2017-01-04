@@ -1,0 +1,15 @@
+.level_name
+{
+    font-size: 20px;
+}
+.level_star
+{
+    font-size: 25px;
+}
+body {
+    margin: 2em;
+}
+body, input[text], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+}
