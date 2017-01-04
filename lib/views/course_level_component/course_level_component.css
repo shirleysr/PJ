@@ -6,3 +6,10 @@
 {
     font-size: 25px;
 }
+body {
+    margin: 2em;
+}
+body, input[text], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+}

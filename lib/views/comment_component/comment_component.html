@@ -1,0 +1,20 @@
+<div [hidden]=false>
+
+    <button type="button" (click)="submitted=true" >我要点评</button>
+</div>
+<div [hidden]=!submitted>
+
+    <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+        <p><span>教师星级</span><span><input type="text" ngControl="teaStar"></span></p>
+        <p><span>课程难度</span><span><input type="text" ngControl="courseStar"></span></p>
+        <p><span>课程收获</span><span><input type="text" ngControl="courseHarvest"></span></p>
+        <button type="submit"  >提交</button><!--(click)="submitted=false"隐藏当前的Form-->
+        <button type="reset">重置</button>
+        <p>Form data submitted:</p>
+        <pre>{{data}}</pre>
+    </form>
+
+
+</div>
+
+

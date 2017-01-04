@@ -4,6 +4,7 @@
 import 'package:angular2/core.dart';
 import 'package:untitled7/views/course_level_component/course_level_component.dart';
 import 'package:untitled7/views/student_evaluate_component/student_evaluate_component.dart';
+import 'package:untitled7/views/comment_component/comment_component.dart';
 //import 'package:angular2/router.dart';
 //import'package:untitled7/model/course_service.dart';
 //import "package:material2_dart/material.dart";
@@ -14,7 +15,7 @@ import 'package:untitled7/views/student_evaluate_component/student_evaluate_comp
     selector: 'my-app',
     styleUrls: const ['app_component.css'],
     templateUrl: 'app_component.html',
-    directives: const [CourseLevelComponent,StudentEvaluateComponent]
+    directives: const [CourseLevelComponent,StudentEvaluateComponent,commentComponent]
 )
 
 /*@RouteConfig(const [
